@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <style>
+        .raCU {
+            color: #E80029;
+        }
+
+        .raCU:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="dropdown">
+                <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">RIOT GAMES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">SUPPORT</a>
+            <a class="navbar-brand" href="#">L</a>
+            <a class="navbar-brand" href="#">|</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">OUR GAMES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SUBMIT A TICKET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">MY TICKETS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">SERVICE STATUS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">BANS AND REPORTS</a>
+                    </li>
+                </ul>
+
+                <div class="erm">
+
+                    <!-- <ion-icon class="langBtn" name="globe-outline"></ion-icon> -->
+                    <button class="btn langBtn" id="lng--btn" data-i18n="lang">AR</button>
+                    <button class="btn btn-secondary" type="button" data-i18n="signNav">SIGN IN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="toast align-items-center show w-100" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex flex-column">
+            <p class="toast-body d-inline-flex gap-1">
+                <a class="btn btn-primary bg-white text-secondary border-0" data-bs-toggle="collapse"
+                    href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
+                    data-i18n="mfa">Multi-Factor Authentication (MFA) Rewards</a>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" data-i18n="mfaP">Some placeholder content for the collapse component. This
+                    panel is hidden by
+                    default but revealed when the user activates the relevant trigger.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" containerTEST">
+        <img src="heroBG1.webp" class="shape-imageTEST" />
+        <img src="heroBG2.webp" class="shape-imageTEST2" />
+
+        <div class="container-fluid text-white p-3 ps-5 pb-5   cut-boxTEST"
+            style="background: linear-gradient(90deg, rgb(10, 20, 40) calc(50% + 800px), rgb(10, 20, 40) 0px) rgb(10, 20, 40);">
+            <div>
+                <h1 class="mb-4 mt-5 mx-xl-5" style="font-size: 4rem">League of Legends Support</h1>
+            </div>
+            <div class="card p-1 mt-5 mx-xl-5" style="max-width: 45rem">
+                <div class="card-body">
+                    <div class="d-flex align-items-center gap-4">
+                        <div>
+                            <h5 class="card-title fw-bold fs-4">Sign in to your Riot Account</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-danger pe-5 ps-5 fw-bold" data-i18n="signHero">SIGN IN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid blackBg text-white p-3 ps-5 pb-5 pt-5">
+        <h1 class="mb-4 fw-bold mx-xl-5" data-i18n="tools">Support Tools</h1>
+        <div class="container-fluid px-xl-5">
+            <div class="row mb-4">
+                <div class="col supportText" data-i18n="toolsP">Your <span class=" raCU" style="cursor: pointer">Riot
+                        Account</span> is
+                    linked to all the Riot games you play--including League of Legends.</div>
+                <div class="col"></div>
+            </div>
+            <div class=" borderCU mb-CU"></div>
+            <div class="row row-cols-2">
+                <div class="col">
+                    <div>
+                        <h4 class="fw-bold mb-CU" data-i18n="accM">Account Management</h4>
+                        <div class="d-grid gap-2">
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP" data-i18n="accM1">Recover Your Account</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP" data-i18n="accM2">Forgot Username / Password</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP" data-i18n="accM3">Multi-Factor Authentication</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4 class="fw-bold mb-CU">Payments</h4>
+                        <div class="d-grid gap-2">
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP">Refund Policy</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP">Chargebacks</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4 class="fw-bold mt-CU mb-CU">Privacy & Data Protection</h4>
+                        <div class="d-grid gap-2">
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP">Request Account Data</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                            <button class="btn btnGrid" type="button">
+                                <p class="btnGridP">Account Deletion</p>
+                                <ion-icon class="btnGridIcon" name="arrow-redo-circle-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btnCard"
+        style="position: fixed; bottom: 2.4rem; right: 2.4rem; z-index: 5000; border-radius: 50rem !important">
+        <ion-icon class="whiteIMP" name="chevron-down-outline"></ion-icon>
+    </button>
+
+    <div class="cardCU hiddenx2">
+        <div class="cardTop">
+            <div class="cardTitle">
+                <div class="cardTL">
+                    <div class="cardTArr">
+                        <ion-icon class="cardChev" name="chevron-back-outline"></ion-icon>
+                    </div>
+                    <div class="cardTLogo">
+                        <img class="cardLogoImg" src="cardLOGO.png" />
+                    </div>
+                    <div class="cardTMain">
+                        <h5 class="cardTHdr">ALPHi</h5>
+                        <p class="cardTP">The team can also help</p>
+                    </div>
+                </div>
+                <div class="cardTR">
+                    <div class="cardTDots">...</div>
+                    <div class="cardTX">x</div>
+                </div>
+            </div>
+            <div class="cardBorder"></div>
+            <div class="msgCU">
+                <p class="msgP">
+                    Hey! I'm ALPHi, your automated helper. I'm in Beta and still learning, but I can answer all kinds of
+                    questions. <br /><br />No need to drop any personal details--I'll ask if I need 'em!<br /><br />What
+                    can I help with?
+                </p>
+            </div>
+            <div class="sentCU mb-4">
+
+                <p class="">ALPHi • AI Agent • Just now</p>
+            </div>
+        </div>
+        <div class="mt-5 cardBot">
+            <div class="typeCU">
+                <p class="typePH">Message...</p>
+                <div class="typeIcons">
+                    <div class="typeIL">
+                        <ion-icon name="attach-outline"></ion-icon>
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <ion-icon name="images-outline"></ion-icon>
+                        <ion-icon name="mic"></ion-icon>
+
+                    </div>
+                    <div class="typeIR">
+                        <ion-icon class="iconR" name="arrow-up-circle"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-1 disclaimerCU">
+                <p class="discP">
+
+                    By chatting with us, you agree to the monitoring and recording of this chat to deliver our services
+                    and
+                    processing of your personal data in accordance with our
+                    <span class="underCU">Privacy Notice</span>.
+                </p>
+                <div class="discX">X</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="askSection">
+        <div class="askContainer">
+
+            <img class="askImg" src="askImg.png" />
+            <h2 class="askHdr">Ask ALPHi!</h2>
+            <p class="askP">Our AI agent's ready to answer your questions, solve your problems, and get you help fast.
+            </p>
+            <button class="btn askBtn">
+                <p>CHAT NOW</p>
+                <ion-icon class="chatIcon" name="chatbubble-ellipses"></ion-icon>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Development version -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

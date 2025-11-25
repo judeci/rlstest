@@ -1,0 +1,381 @@
+.langBtn {
+    color: red !important;
+    font-size: 1rem;
+}
+
+
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+
+.blackBg {
+    background-color: rgb(5,5,5);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("blackBg.svg");
+}
+
+.supportText {
+    font-size: 1.2rem;
+}
+
+.borderCU {
+    border-bottom: 2px solid #5f5f5f;
+}
+
+.mb-CU {
+    margin-bottom: 2.3rem;
+}
+
+ .mt-CU {
+    margin-top: 2.3rem;
+ }
+
+.btnGrid {
+    background-color: #292929;
+    border: 2px solid #999899;
+    color: #ebebeb;
+    /* text-align: start; */
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    max-width: 39.4rem;
+}
+
+.btnGrid:hover {
+    background-color: #505050;
+        border: 2px solid #999899;
+
+}
+.btnGridP {
+    margin: 0;
+}
+.btnGridIcon {
+    color: #ee4a56;
+    font-size: 2rem;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// */
+/* //////////////////////      CARD STUFF      /////////////////////// */
+
+.btnCard {
+    background-color: #c50022;
+    transition: transform 0.3s ease-in-out; 
+    width: 3rem;
+    height: 3rem;
+    padding-right: .8rem;
+    padding-top: .6rem;
+
+}
+
+.btnCard:hover {
+    background-color: #c50022 !important;
+    transform: scale(1.1); 
+}
+
+.cardCU {
+  width: 25.2rem;
+  height: 38.4rem;
+  border-radius: 1rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+   padding: 1rem;
+
+   box-shadow: 0px 0px 40px 40px #11111126;
+ 
+
+  position: fixed;
+  bottom: 6.6rem;
+  right: 2.4rem;
+  z-index: 5000;
+
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -.4rem;
+    margin-bottom: -.6rem;
+}
+
+.cardTL, .cardTR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardChev {
+    font-size: .9rem;
+}
+.cardTL {
+    gap: 1rem;
+}
+.cardTR {
+    gap: 2rem;
+}
+
+.cardLogoImg {
+    height: 2rem;
+    margin-top: -1.2rem;
+    margin-right: -.6rem;
+}
+
+.cardTMain {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cardTHdr {
+    font-size: .9rem;
+}
+
+.cardTP {
+    margin-top: -.5rem;
+    font-size: .8rem;
+    color: #777;
+}
+
+.cardTDots, .cardTX {
+    margin-top: -.9rem;
+    cursor: pointer;
+    color: #777;
+    font-weight: 600;
+}
+
+.cardTDots {
+    margin-top: -1.1rem;
+}
+
+.cardTArr {
+    margin-top: -.8rem;
+}
+
+.cardBorder {
+    margin-top: -.4rem;
+    border-bottom: 1px solid #eee;
+     margin-left: -1rem !important;
+     margin-right: -1rem !important;
+}
+
+.msgCU {
+  background-color: rgb(245, 245, 245);
+  margin-top: 1.4rem;
+  border-radius: 1rem;
+  padding: .8rem;
+  padding-bottom: 1px !important;
+  font-size: .9rem;
+
+  line-height: 1.2;
+  margin-right: 3rem;
+}
+
+.sentCU {
+    font-size: .8rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    color: #888;
+}
+
+.typeCU {
+  height: 5rem;
+  background-color: white;
+  border: 1px solid #eee;
+  box-shadow: 0 0 3px 1px #eee;
+  border-radius: 1.4rem;
+  padding: 1rem;
+  padding-top: .8rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.typePH {
+    font-size: .9rem;
+    color: #777;
+    margin-bottom: 0 !important;
+}
+
+.typeIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.typeIL {
+ display: flex;
+ gap: 1.1rem;
+}
+
+ion-icon {
+  color: #777;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.whiteIMP {
+    color: white !important;
+    font-size: 1.3rem;
+}
+
+.iconR {
+    font-size: 2.2rem;
+
+}
+
+.typeIR {
+    margin-right: -.6rem;
+}
+
+
+.disclaimerCU {
+  border-radius: 1rem;
+  background-color: #f5f5f5;
+  color: #888;
+  font-size: 0.8rem;
+  /* padding: 1rem; */
+  /* padding-bottom: 1px !important; */
+  line-height: 1.3;
+  display: flex;
+  /* gap: 1.2rem; */
+}
+
+.discP {
+    padding: 1rem;
+    padding-bottom: 1px !important;
+    padding-right: 0 !important;
+}
+
+.discX {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 12rem;
+    font-weight: 600;
+    /* padding-right: 1rem; */
+    cursor: pointer;
+}
+
+.underCU {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hiddenx2 {
+    
+  display: none;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////         ASK SECTION          //////////////// */
+
+
+
+.askContainer {
+    background-color: #c50022;
+    padding: 2rem 10rem;
+    margin: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    background-image: url("askImgBg.webp"), linear-gradient(to top, rgb(183, 13, 43), rgb(81, 6, 19));
+    background-size: cover;
+    background-position: center;
+}
+
+.askImg {
+    height: 9rem;
+    margin-bottom: 2rem;
+}
+
+.askBtn {
+    background-color: #E80029;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    /* height: 3rem; */
+    padding: 1rem 2rem;
+    border-radius: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.askBtn:hover {
+    background-color: #e8002b71;
+}
+
+.askBtn p {
+    margin: 0;
+}
+
+.chatIcon {
+    color: white;
+    font-size: 1.3rem;
+    /* margin-left: 5px; */
+}
+
+/* //////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* //////////////////////  TEST   ///////////////////// */
+
+.containerTEST {
+  position: relative;
+  width: 100%;
+  /* height: 20rem; */
+  overflow: hidden;
+}
+
+.cut-boxTEST {
+  /* background: rgb(19, 18, 18); */
+  width: 100%;
+  height: 100%;
+
+  /* Cut the right side with a polygon */
+  clip-path: polygon(
+    0 0,
+    0 100%,
+    72% 100%,
+    68% 40%,
+    83% 0
+  );
+}
+
+.shape-imageTEST {
+  position: absolute;
+  right: -58%;
+  top: -8%;
+  height: 230%;
+  width: auto;
+  object-fit: cover;
+}
+
+.shape-imageTEST2 {
+    position: absolute;
+    z-index: 5000;
+    right: -4.5%;
+  top: -5%;
+  height: 132%;
+    width: auto;
+  object-fit: cover;
+}
