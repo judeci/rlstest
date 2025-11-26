@@ -23,66 +23,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <div class="dropdown">
-                <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">RIOT GAMES</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider" />
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-            <a class="navbar-brand" href="#">SUPPORT</a>
-            <a class="navbar-brand" href="#">L</a>
-            <a class="navbar-brand" href="#">|</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">OUR GAMES</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">SUBMIT A TICKET</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">MY TICKETS</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">SERVICE STATUS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">BANS AND REPORTS</a>
-                    </li>
-                </ul>
+    <div data-include="/components/navBarSticky.html"></div>
 
-                <div class="erm">
-
-                    <!-- <ion-icon class="langBtn" name="globe-outline"></ion-icon> -->
-                    <button class="btn langBtn" id="lng--btn" data-i18n="lang">AR</button>
-                    <button class="btn btn-secondary" type="button" data-i18n="signNav">SIGN IN</button>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- <ion-icon class="langBtn" name="globe-outline"></ion-icon> -->
+    <button class="btn langBtn" id="lng--btn" data-i18n="lang">AR</button>
 
     <div class="toast align-items-center show w-100" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="d-flex flex-column">
@@ -282,6 +227,7 @@
         crossorigin="anonymous"></script>
 
     <script type="module" src="main.js"></script>
+    <script src="/components/components.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

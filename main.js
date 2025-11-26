@@ -1,4 +1,4 @@
-import { resources } from "/components/translation.js";
+import { resources } from "/components/resources.js";
 
 const langBtn = document.querySelector(".langBtn");
 const body = document.body;
@@ -22,6 +22,7 @@ langBtn.addEventListener("click", function () {
     shapeImgTest.style.right = "-58%";
     shapeImgTest.style.transform = "scaleX(1)";
     shapeImgTest2.style.right = "-4.5%";
+    langBtn.style.right = "7%";
     currentLang = "en";
   } else if (currentLang === "en") {
     body.style.textAlign = "right";
@@ -33,6 +34,7 @@ langBtn.addEventListener("click", function () {
     shapeImgTest.style.right = "67%";
     shapeImgTest.style.transform = "scaleX(-1)";
     shapeImgTest2.style.right = "64.5%";
+    langBtn.style.right = "88%";
     currentLang = "ar";
   }
   const elements = document.querySelectorAll("[data-i18n]");
